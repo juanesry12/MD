@@ -1,0 +1,7 @@
+MBR contiene:
+una tabla de particiones:pesa 64 bits
+gestor de arranque:pesa 446 bits
+signature:pesa 2 bits 
+El MBR es el primer sector de dispositivo de almacenamiento de datos,como un disco duro.aveces se emplea para el arranque del sistema operativo con bootstraps.
+una tabla de particiones:almacena toda la información sobre la partición:si es arrancable,si no lo es,el formato,el tamaño y el sector de incio.
+el gestor de arranque esta diseñado exclusivamente para preparar todo lo que necesita para iniciar el sistema operativo.
